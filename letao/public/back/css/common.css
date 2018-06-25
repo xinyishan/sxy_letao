@@ -1,4 +1,21 @@
 
+
+.red{
+  color: #A94442;
+}
+a:hover,
+a:link,
+a:visited,
+a:active{
+  text-decoration: none;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .body-bg{
   background-color: #222D32;
 }
@@ -13,3 +30,127 @@
 .mt150{
   margin-top: 150px;
 }
+
+.lt-aside{
+  width: 180px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #222D32;
+  z-index: 999;
+  transition: all 1s;
+}
+.lt-aside.hide-menu{
+  left: -180px;
+}
+
+
+.lt-aside .brand{
+  width: 180px;
+  height: 50px;
+  background-color: #367FA9;
+  line-height:50px;
+  text-align: center;
+}
+.lt-aside .brand a{
+  font-size: 25px;
+  color: #fff;
+}
+.lt-aside .user{
+  width: 180px;
+  height: 180px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.lt-aside .user img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.lt-aside .user p{
+  height: 40px;
+  line-height:40px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.lt-aside .nav{
+  height: 120px;
+  width: 180px;
+}
+.lt-aside .nav ul{
+  height: 120px;
+  width: 180px;
+}
+.lt-aside .nav li{
+  width: 180px;
+}
+
+.lt-aside .nav a{
+  height: 40px;
+  line-height:40px;
+  display: block;
+  color: #fff;
+  border-left: 3px solid transparent;
+  padding-left:40px;
+}
+.lt-aside .nav a.current{
+  background-color: #1D1F21;
+  border-left: 3px solid #006699;
+}
+
+
+.lt-aside .nav li .child{
+  height: 80px;
+}
+
+.lt-aside .nav li .child a{
+  padding-left: 60px;
+}
+
+.lt-main{
+  height:2000px;
+  width: 100%;
+  background-color: pink;
+  padding-left: 180px;
+  padding-top: 50px;
+  transition: all 1s;
+}
+
+.lt-main.hide-menu{
+  padding-left: 0;
+}
+
+.lt-main .topbar{
+  height: 50px;
+  width: 100%;
+  background-color: #3C8DBC;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 180px;
+  line-height:50px;
+  transition: all 1s;
+}
+.lt-main .topbar.hide-menu{
+  padding-left:0;
+}
+
+.lt-main .topbar a{
+  font-size: 18px;
+  height: 50px;
+  width: 50px;
+  line-height:50px;
+  text-align: center;
+  color: #fff;
+}
+
+.lt-main .breadcrumb{
+  margin-top: 20px;
+}
+
+
+
