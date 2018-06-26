@@ -112,9 +112,9 @@ ul{
 }
 
 .lt-main{
-  height:2000px;
+  height:100%;
   width: 100%;
-  background-color: pink;
+  background-color: #fff;
   padding-left: 180px;
   padding-top: 50px;
   transition: all 1s;
@@ -134,6 +134,7 @@ ul{
   padding-left: 180px;
   line-height:50px;
   transition: all 1s;
+  z-index: 998;
 }
 .lt-main .topbar.hide-menu{
   padding-left:0;
