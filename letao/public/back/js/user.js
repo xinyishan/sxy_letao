@@ -28,7 +28,8 @@ render()
           totalPages:Math.ceil(info.total/info.size),
           currentPage:info.page,
           //点击事件
-          onPageClicked(a,b,c,page){
+          onPageClicked:function(a,b,c,page){
+            console.log(page);
             currentPage = page;
             render()
           }
