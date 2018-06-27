@@ -33,6 +33,9 @@ ul{
 .mb20{
   margin-bottom: 20px;
 }
+.mt20{
+  margin-top: 20px;
+}
 
 .lt-aside{
   width: 180px;
@@ -154,6 +157,12 @@ ul{
 
 .lt-main .breadcrumb{
   margin-top: 20px;
+}
+
+.table.table-bordered th,
+.table.table-bordered td{
+  text-align: center;
+  vertical-align: middle;
 }
 
 
