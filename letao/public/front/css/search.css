@@ -1,26 +1,8 @@
 
 
 
-.search{
-  padding:10px;
-  position: relative;
 
-}
 
-.search input{
-  height: 34px;
-  margin: 0;
-  border-radius: 5px;
-  border: 1px solid #007aff;
-  font-size: 12px;
-}
-.search button{
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  border-radius: 0 5px 5px 0;
-
-}
 
 .history {
   padding: 10px;
